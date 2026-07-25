@@ -56,7 +56,7 @@ def validate_dataset():
 
         for file in folder.iterdir():
 
-            # Skip unsupported files
+            
             if file.suffix.lower() not in IMAGE_EXTENSIONS:
                 unsupported += 1
                 continue

@@ -8,9 +8,7 @@ IMAGE_MODE = {"RGB", "L", "RGBA"}
 
 
 def read_image(image):
-    """
-    Read information from a single image.
-    """
+
     rgb = 0
     l = 0
     rgba = 0
@@ -28,9 +26,7 @@ def read_image(image):
 
 
 def count_class(folder):
-    """
-    Analyze one class folder.
-    """
+    
     count = 0
 
     total_rgb = 0
