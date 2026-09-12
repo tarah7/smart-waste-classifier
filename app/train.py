@@ -23,3 +23,4 @@ for epoch in range(5):
     print(f"Validation Loss: {validation_loss:.4f}")
 test_accuracy = evaluate_accuracy(model, test_loader)
 print(f"Test Accuracy: {test_accuracy:.4f}")
+torch.save(model.state_dict(), "models/waste_classifier.pth")
